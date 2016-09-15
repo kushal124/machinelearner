@@ -1,0 +1,15 @@
+permalink: /:year/:month/:title
+markdown: redcarpet
+highlighter: pygments
+exclude: ['Rakefile', 'CNAME', 'README.md', 'LICENSE', 'config.rb', 'scss/']
+
+timezone: Asia/Calcutta
+
+url: http://machinelearner.me
+
+name: "MachineLearner"
+tagline: "Notes on Machine Learning and Computer Vision"
+description: "A weblog of a Chemist turned Machine Learner"
+
+gems:
+  - jekyll-sitemap

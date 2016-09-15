@@ -1,0 +1,23 @@
+---
+layout: base
+---
+
+<div class="post">
+
+  <header>
+    <h1 class="title--post">{{ page.title }}</h1>
+    <p class="muted">Written on {{ page.date | date_to_long_string }}</p>
+  </header>
+
+  <article role="main">
+  {{ content }}
+  </article>
+
+  <p><a href="https://twitter.com/share" class="twitter-share-button" data-via="kushal124" data-related="kushal124">Tweet</a></p>
+
+  <footer class="box  box--highlite">
+    <p>The above post was brought to you by <strong>Kushal</strong>.</p>
+    <p><a href="https://twitter.com/kushal124" class="twitter-follow-button" data-show-count="true">Follow @kushal124</a></p>
+  </footer>
+
+</div><!-- post -->

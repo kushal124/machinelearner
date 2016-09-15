@@ -1,6 +1,6 @@
 permalink: /:year/:month/:title
 markdown: redcarpet
-highlighter: pygments
+highlighter: rouge
 exclude: ['Rakefile', 'CNAME', 'README.md', 'LICENSE', 'config.rb', 'scss/']
 
 timezone: Asia/Calcutta
